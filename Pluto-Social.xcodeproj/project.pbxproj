@@ -13,6 +13,7 @@
 		28A866861D8D890F00D137C1 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A866851D8D890F00D137C1 /* RoundBtn.swift */; };
 		28A866881D8D8A7700D137C1 /* fancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A866871D8D8A7700D137C1 /* fancyField.swift */; };
 		28A8668A1D8DAC4900D137C1 /* fancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A866891D8DAC4900D137C1 /* fancyBtn.swift */; };
+		28A8668D1D8DDA7C00D137C1 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A8668C1D8DDA7C00D137C1 /* FeedVC.swift */; };
 		28B5A52D1D8D66B00063DEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5A52C1D8D66B00063DEE7 /* AppDelegate.swift */; };
 		28B5A52F1D8D66B00063DEE7 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5A52E1D8D66B00063DEE7 /* SignInVC.swift */; };
 		28B5A5321D8D66B00063DEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B5A5301D8D66B00063DEE7 /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		28A866871D8D8A7700D137C1 /* fancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fancyField.swift; sourceTree = "<group>"; };
 		28A866891D8DAC4900D137C1 /* fancyBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fancyBtn.swift; sourceTree = "<group>"; };
 		28A8668B1D8DCC0200D137C1 /* Pluto-Social.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Pluto-Social.entitlements"; sourceTree = "<group>"; };
+		28A8668C1D8DDA7C00D137C1 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		28B5A5291D8D66B00063DEE7 /* Pluto-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pluto-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B5A52C1D8D66B00063DEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28B5A52E1D8D66B00063DEE7 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				28B5A52E1D8D66B00063DEE7 /* SignInVC.swift */,
+				28A8668C1D8DDA7C00D137C1 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 					28B5A5281D8D66B00063DEE7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 22E3QU5W9V;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -278,6 +282,7 @@
 				28A8667F1D8D847100D137C1 /* fancyView.swift in Sources */,
 				28A866861D8D890F00D137C1 /* RoundBtn.swift in Sources */,
 				28B5A52F1D8D66B00063DEE7 /* SignInVC.swift in Sources */,
+				28A8668D1D8DDA7C00D137C1 /* FeedVC.swift in Sources */,
 				28B5A52D1D8D66B00063DEE7 /* AppDelegate.swift in Sources */,
 				28A866881D8D8A7700D137C1 /* fancyField.swift in Sources */,
 				28A866841D8D863A00D137C1 /* Constants.swift in Sources */,
