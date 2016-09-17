@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28A8667D1D8D7B3A00D137C1 /* leuk logo final-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 28A8667C1D8D7B3A00D137C1 /* leuk logo final-1.png */; };
 		28B5A52D1D8D66B00063DEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5A52C1D8D66B00063DEE7 /* AppDelegate.swift */; };
 		28B5A52F1D8D66B00063DEE7 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5A52E1D8D66B00063DEE7 /* SignInVC.swift */; };
 		28B5A5321D8D66B00063DEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B5A5301D8D66B00063DEE7 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28A8667C1D8D7B3A00D137C1 /* leuk logo final-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leuk logo final-1.png"; sourceTree = "<group>"; };
 		28B5A5291D8D66B00063DEE7 /* Pluto-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pluto-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B5A52C1D8D66B00063DEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28B5A52E1D8D66B00063DEE7 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				28B5A52C1D8D66B00063DEE7 /* AppDelegate.swift */,
 				28B5A5301D8D66B00063DEE7 /* Main.storyboard */,
 				28B5A5331D8D66B00063DEE7 /* Assets.xcassets */,
+				28A8667C1D8D7B3A00D137C1 /* leuk logo final-1.png */,
 				28B5A5351D8D66B00063DEE7 /* LaunchScreen.storyboard */,
 				28B5A5381D8D66B00063DEE7 /* Info.plist */,
 				28B5A53E1D8D66F40063DEE7 /* GoogleService-Info.plist */,
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A8667D1D8D7B3A00D137C1 /* leuk logo final-1.png in Resources */,
 				28B5A53F1D8D66F40063DEE7 /* GoogleService-Info.plist in Resources */,
 				28B5A5371D8D66B00063DEE7 /* LaunchScreen.storyboard in Resources */,
 				28B5A5341D8D66B00063DEE7 /* Assets.xcassets in Resources */,
