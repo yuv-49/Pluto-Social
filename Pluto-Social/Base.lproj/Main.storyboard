@@ -45,7 +45,7 @@
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KUz-eB-xxy" customClass="fancyField" customModule="Pluto_Social" customModuleProvider="target">
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -55,6 +55,9 @@
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="signInTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dv7-gk-3cM"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -116,6 +119,10 @@
                             <constraint firstItem="pQR-Ud-QRq" firstAttribute="top" secondItem="Wdj-F8-dsQ" secondAttribute="bottom" constant="30" id="zRl-16-R6v"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="MVq-oM-D4A" id="y5L-p3-4X3"/>
+                        <outlet property="passwordField" destination="KUz-eB-xxy" id="oyB-on-b9l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
