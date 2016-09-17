@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		28B5A52D1D8D66B00063DEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5A52C1D8D66B00063DEE7 /* AppDelegate.swift */; };
-		28B5A52F1D8D66B00063DEE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5A52E1D8D66B00063DEE7 /* ViewController.swift */; };
+		28B5A52F1D8D66B00063DEE7 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B5A52E1D8D66B00063DEE7 /* SignInVC.swift */; };
 		28B5A5321D8D66B00063DEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B5A5301D8D66B00063DEE7 /* Main.storyboard */; };
 		28B5A5341D8D66B00063DEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B5A5331D8D66B00063DEE7 /* Assets.xcassets */; };
 		28B5A5371D8D66B00063DEE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B5A5351D8D66B00063DEE7 /* LaunchScreen.storyboard */; };
+		28B5A53F1D8D66F40063DEE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28B5A53E1D8D66F40063DEE7 /* GoogleService-Info.plist */; };
+		E06BD5F1456032C625EE060C /* Pods_Pluto_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB3E2F07EFC571BE6196EF8 /* Pods_Pluto_Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28B5A5291D8D66B00063DEE7 /* Pluto-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pluto-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B5A52C1D8D66B00063DEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28B5A52E1D8D66B00063DEE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28B5A52E1D8D66B00063DEE7 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		28B5A5311D8D66B00063DEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28B5A5331D8D66B00063DEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B5A5361D8D66B00063DEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28B5A5381D8D66B00063DEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B5A53E1D8D66F40063DEE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		52CA3D59145B81FD6F6F215E /* Pods-Pluto-Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pluto-Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pluto-Social/Pods-Pluto-Social.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB3E2F07EFC571BE6196EF8 /* Pods_Pluto_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pluto_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5EF0C615D781E2A9A63310 /* Pods-Pluto-Social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pluto-Social.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pluto-Social/Pods-Pluto-Social.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06BD5F1456032C625EE060C /* Pods_Pluto_Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				28B5A52B1D8D66B00063DEE7 /* Pluto-Social */,
 				28B5A52A1D8D66B00063DEE7 /* Products */,
+				7D47415C6DADCE9524419955 /* Pods */,
+				BCB8CA0206614E1D8BB1C556 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +63,56 @@
 		28B5A52B1D8D66B00063DEE7 /* Pluto-Social */ = {
 			isa = PBXGroup;
 			children = (
+				28B5A5431D8D69DA0063DEE7 /* View */,
+				28B5A5421D8D69D60063DEE7 /* Controller */,
+				28B5A5411D8D69D10063DEE7 /* Model */,
 				28B5A52C1D8D66B00063DEE7 /* AppDelegate.swift */,
-				28B5A52E1D8D66B00063DEE7 /* ViewController.swift */,
 				28B5A5301D8D66B00063DEE7 /* Main.storyboard */,
 				28B5A5331D8D66B00063DEE7 /* Assets.xcassets */,
 				28B5A5351D8D66B00063DEE7 /* LaunchScreen.storyboard */,
 				28B5A5381D8D66B00063DEE7 /* Info.plist */,
+				28B5A53E1D8D66F40063DEE7 /* GoogleService-Info.plist */,
 			);
 			path = "Pluto-Social";
+			sourceTree = "<group>";
+		};
+		28B5A5411D8D69D10063DEE7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		28B5A5421D8D69D60063DEE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28B5A52E1D8D66B00063DEE7 /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		28B5A5431D8D69DA0063DEE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7D47415C6DADCE9524419955 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52CA3D59145B81FD6F6F215E /* Pods-Pluto-Social.debug.xcconfig */,
+				EC5EF0C615D781E2A9A63310 /* Pods-Pluto-Social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BCB8CA0206614E1D8BB1C556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3E2F07EFC571BE6196EF8 /* Pods_Pluto_Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28B5A53B1D8D66B00063DEE7 /* Build configuration list for PBXNativeTarget "Pluto-Social" */;
 			buildPhases = (
+				F2B2B3DBAC9451EFD4444279 /* [CP] Check Pods Manifest.lock */,
 				28B5A5251D8D66B00063DEE7 /* Sources */,
 				28B5A5261D8D66B00063DEE7 /* Frameworks */,
 				28B5A5271D8D66B00063DEE7 /* Resources */,
+				5901D243A825C66979CCDCCB /* [CP] Embed Pods Frameworks */,
+				19CE6D45B927FCF595B40468 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B5A53F1D8D66F40063DEE7 /* GoogleService-Info.plist in Resources */,
 				28B5A5371D8D66B00063DEE7 /* LaunchScreen.storyboard in Resources */,
 				28B5A5341D8D66B00063DEE7 /* Assets.xcassets in Resources */,
 				28B5A5321D8D66B00063DEE7 /* Main.storyboard in Resources */,
@@ -131,12 +186,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19CE6D45B927FCF595B40468 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pluto-Social/Pods-Pluto-Social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5901D243A825C66979CCDCCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pluto-Social/Pods-Pluto-Social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B2B3DBAC9451EFD4444279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		28B5A5251D8D66B00063DEE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B5A52F1D8D66B00063DEE7 /* ViewController.swift in Sources */,
+				28B5A52F1D8D66B00063DEE7 /* SignInVC.swift in Sources */,
 				28B5A52D1D8D66B00063DEE7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +361,7 @@
 		};
 		28B5A53C1D8D66B00063DEE7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CA3D59145B81FD6F6F215E /* Pods-Pluto-Social.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pluto-Social/Info.plist";
@@ -270,6 +374,7 @@
 		};
 		28B5A53D1D8D66B00063DEE7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5EF0C615D781E2A9A63310 /* Pods-Pluto-Social.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Pluto-Social/Info.plist";
@@ -299,6 +404,7 @@
 				28B5A53D1D8D66B00063DEE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

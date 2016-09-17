@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>37941976576-05dioc92maf8e5s02s890pf4qanv9c7u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.37941976576-05dioc92maf8e5s02s890pf4qanv9c7u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCUF308yx6BQ9leceGA6ot7-pE3rtozYdk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>37941976576</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.Pluto-Social</string>
+	<key>PROJECT_ID</key>
+	<string>pluto-social</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pluto-social.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:37941976576:ios:77e757f73348e6da</string>
+	<key>DATABASE_URL</key>
+	<string>https://pluto-social.firebaseio.com</string>
+</dict>
+</plist>
