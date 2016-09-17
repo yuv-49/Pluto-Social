@@ -21,14 +21,18 @@ class fancyBtn: UIButton {
         layer.cornerRadius = 2.0
         
 
+    
     }
+
+    
+    
     
     override func layoutSubviews() {
         super.layoutSubviews()
         
+        layer.cornerRadius = self.frame.width / 15 //created by own.
         
     }
     
-
 
 }
